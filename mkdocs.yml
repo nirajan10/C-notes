@@ -1,1 +1,30 @@
-site_name: My Docs
+site_name: C Programming
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: indigo
+nav:
+  - Course Outline: index.md
+  - Introduction:
+      - Programming language:
+          - Programming: programming.md
+          - Overview of Computer Architecture: overview_of_CA.md
+          - Introduction to Programming Language: programming_language.md
+      - C Programming language:
+          - Introduction to C: c_intro.md
+          - Where C is Used: c_usage.md
+          - Why Learn C: learn_c.md
+  # - Installation:
+  #     - Setting Up Environment: setup_environment.md
+      # - Visual Studio (VS) Code:
+      # - C/C++ Extention:
+      # - C Compiler:
+      # - Optional Extentions:
+      # - Testing your setup:
+      # - Troubleshooting:
+markdown_extensions:
+  - codehilite
+  - admonition
+  - toc:
+      permalink: true

@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+# Course Outline
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the beginner-friendly C programming guide.  
+This documentation covers the important topics to be covered and assignment details for this course.
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 📌 Topics
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- Introduction to programming
+- Git and Github introduction
+- Basic C Programming Concepts
+- Operators and expressions
+- Control Structures
+- Array and Strings
+- Functions
+- Pointers and memory management
+- User defined functions and libraries
+- File input/output
+- Debugging and testing
+- Coding practices and style guidelines
+- Assignments
