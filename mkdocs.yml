@@ -21,6 +21,11 @@ nav:
       - C Compiler: compiler_installation.md
       - Optional Extentions: optional-extensions.md
       - Testing your setup: testing_c_setup.md
+  - Git and Github:
+      - Version Control, Git and Github: version_control.md
+      - Installation and setup:
+        - Git and Github: install_git_github.md
+        - Setup using ssh: setup_ssh_github.md
 markdown_extensions:
   - codehilite
   - admonition
