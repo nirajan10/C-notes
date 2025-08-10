@@ -15,14 +15,12 @@ nav:
           - Introduction to C: c_intro.md
           - Where C is Used: c_usage.md
           - Why Learn C: learn_c.md
-  # - Installation:
-  #     - Setting Up Environment: setup_environment.md
-      # - Visual Studio (VS) Code:
-      # - C/C++ Extention:
-      # - C Compiler:
-      # - Optional Extentions:
-      # - Testing your setup:
-      # - Troubleshooting:
+  - Installation:
+      - Visual Studio (VS) Code: vscode_installation.md
+      - C/C++ Extention: c-cpp-extension.md
+      - C Compiler: compiler_installation.md
+      - Optional Extentions: optional-extensions.md
+      - Testing your setup: testing_c_setup.md
 markdown_extensions:
   - codehilite
   - admonition
