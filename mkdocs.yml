@@ -39,6 +39,9 @@ nav:
       - Input: inputs.md
       - Output: output.md
       - Escape sequences: escape_sequences.md
+  - Assignments:
+      - Assignment 1: assignment1.md
+      - Assignment submission guide: assignment-guide.md
 markdown_extensions:
   - codehilite
   - admonition
