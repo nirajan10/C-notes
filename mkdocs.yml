@@ -2,7 +2,7 @@ site_name: C Programming
 theme:
   name: material
   palette:
-    primary: blue
+    primary: ddark blue
     accent: indigo
 nav:
   - Course Outline: index.md
@@ -31,6 +31,14 @@ nav:
       - Undo changes: git-undoing-changes.md
       - Gitignore: gitignore.md
       - Fork: git_fork.md
+  - Basic C Programming Concepts:
+      - Statements: statements.md
+      - Declarations: declarations.md
+      - Comments: comments.md
+      - Variables: variables.md
+      - Input: inputs.md
+      - Output: output.md
+      - Escape sequences: escape_sequences.md
 markdown_extensions:
   - codehilite
   - admonition
