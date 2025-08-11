@@ -26,6 +26,11 @@ nav:
       - Installation and setup:
         - Git and Github: install_git_github.md
         - Setup using ssh: setup_ssh_github.md
+      - Starting a repository: starting_repository.md
+      - Working with branch: working_with_branches.md
+      - Undo changes: git-undoing-changes.md
+      - Gitignore: gitignore.md
+      - Fork: git_fork.md
 markdown_extensions:
   - codehilite
   - admonition
