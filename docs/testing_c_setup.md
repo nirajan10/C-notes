@@ -9,11 +9,11 @@ To confirm that your C programming environment is set up correctly in VSCode, fo
 2. Create a new file named `hello.c` with the following code:
 
 ```c
-    #include <stdio.h>
-    int main() {
-      printf("Hello, World!\n");
-      return 0;
-    }
+#include <stdio.h>
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
 ```
 
 3. Run the code using one of these methods:
