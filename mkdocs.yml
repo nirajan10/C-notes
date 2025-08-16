@@ -1,9 +1,5 @@
 site_name: C Programming
-theme:
-  name: material
-  palette:
-    primary: ddark blue
-    accent: indigo
+
 nav:
   - Course Outline: index.md
   - Introduction:
@@ -39,11 +35,39 @@ nav:
       - Input: inputs.md
       - Output: output.md
       - Escape sequences: escape_sequences.md
+  - Operator and expression: operators_and_expressions.md
   - Assignments:
       - Assignment 1: assignment1.md
-      - Assignment guide: assignment-guide.md
+#       - Assignment guide: assignment-guide.md
+
+theme:
+  name: material
+  features:
+    - header.autohide
+    - announce.dismiss
+    - navigation.footer
+  code:
+    highlighting: true
+    light: default
+    dark: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
 markdown_extensions:
-  - codehilite
-  - admonition
-  - toc:
-      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences  
+extra:
+  generator: false
+      
+copyright: Copyright &copy; 2025 - Nirajan Thakuri
