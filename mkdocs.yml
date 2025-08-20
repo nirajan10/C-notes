@@ -38,7 +38,7 @@ nav:
   - Operator and expression: operators_and_expressions.md
   - Assignments:
       - Assignment 1: assignment1.md
-#       - Assignment guide: assignment-guide.md
+      - Assignment guide: assignment-guide.md
 
 theme:
   name: material
