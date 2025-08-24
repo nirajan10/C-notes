@@ -39,8 +39,8 @@ nav:
   - Control Structure:
       - Introduction: conditionals.md
       - Conditional Statements: conditional_statements.md
-      - Loops: loop_control_statements.md
-      - Loop Control Statements: loops.md
+      - Loops: loops.md
+      - Loop Control Statements: loop_control_statements.md
   - Assignments:
       - Assignment 1: assignment1.md
       - Assignment guide: assignment-guide.md
