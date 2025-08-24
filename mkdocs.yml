@@ -36,6 +36,11 @@ nav:
       - Output: output.md
       - Escape sequences: escape_sequences.md
   - Operator and expression: operators_and_expressions.md
+  - Control Structure:
+      - Introduction: conditionals.md
+      - Conditional Statements: conditional_statements.md
+      - Loops: loop_control_statements.md
+      - Loop Control Statements: loops.md
   - Assignments:
       - Assignment 1: assignment1.md
       - Assignment guide: assignment-guide.md
