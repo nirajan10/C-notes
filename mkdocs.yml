@@ -41,9 +41,10 @@ nav:
       - Conditional Statements: conditional_statements.md
       - Loops: loops.md
       - Loop Control Statements: loop_control_statements.md
+  - Arrays and Strings: arrays_and_strings.md
   - Assignments:
-      - Assignment 1: assignment1.md
       - Assignment guide: assignment-guide.md
+      - Assignment 1: assignment1.md
 
 theme:
   name: material
