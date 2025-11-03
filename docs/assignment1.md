@@ -21,7 +21,7 @@
 
 **Q2.** Explain the difference between a variable declaration and a variable initialization in C.
 
-**Q3.** Write a C program to prompt the user for their name and display a personalized greeting message.
+**Q3.** Write a C program to display a personalized greeting message. (Should contain 'hello' or 'welcome' in the message)
 
 **Q4.** What are the different data types available in C? Provide examples of each data type.
 
@@ -64,3 +64,9 @@
 **Q23.** Given a variable num, write an expression that checks if it is a power of 2.
 
 **Q24.** Create an expression that checks if a given number is a perfect square.
+
+---
+
+## Deadline: ---
+
+---
