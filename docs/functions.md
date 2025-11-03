@@ -150,32 +150,6 @@ int main() {
 }
 ```
 
-## Function Prototypes
-
-In C, the compiler reads code from top to bottom. It must know about a function *before* it is called. A **function prototype** is a declaration that introduces the function's signature (name, return type, and parameter types) to the compiler without defining its body. This allows you to place your function definitions later in the file, which can improve code organization.
-
-**Syntax:** `return_type function_name(parameter_types);`
-
-```c
-#include <stdio.h>
-
-// --- Function Prototype ---
-// Tells the compiler that calculateArea exists and what it looks like.
-float calculateArea(float radius);
-
-int main() {
-    // The compiler knows this is a valid call because of the prototype.
-    printf("Area: %f\n", calculateArea(5.0));
-    return 0;
-}
-
-// --- Function Definition ---
-// The actual implementation of the function.
-float calculateArea(float radius) {
-    return 3.14159 * radius * radius;
-}
-```
-
 ## How Data is Passed to Parameters (Passing Mechanism)
 
 When you pass an argument to a function, C must decide *how* that data is given to the parameter. This is a critical concept that determines whether a function can modify the original data.
@@ -320,7 +294,33 @@ int main() {
 }
 ```
 
-### Recursive Functions
+## Function Prototypes
+
+In C, the compiler reads code from top to bottom. It must know about a function *before* it is called. A **function prototype** is a declaration that introduces the function's signature (name, return type, and parameter types) to the compiler without defining its body. This allows you to place your function definitions later in the file, which can improve code organization.
+
+**Syntax:** `return_type function_name(parameter_types);`
+
+```c
+#include <stdio.h>
+
+// --- Function Prototype ---
+// Tells the compiler that calculateArea exists and what it looks like.
+float calculateArea(float radius);
+
+int main() {
+    // The compiler knows this is a valid call because of the prototype.
+    printf("Area: %f\n", calculateArea(5.0));
+    return 0;
+}
+
+// --- Function Definition ---
+// The actual implementation of the function.
+float calculateArea(float radius) {
+    return 3.14159 * radius * radius;
+}
+```
+
+## Recursive Functions
 
 Recursion is an elegant programming concept where a function calls itself to solve a problem. A recursive function must have:
 1.  A **base case**: A condition that stops the recursion and prevents an infinite loop.
