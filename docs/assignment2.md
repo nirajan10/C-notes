@@ -1,4 +1,4 @@
-# Assignment 1: C Programming Basics
+# Assignment 2: Conditional and loops
 
 ## Instructions
 
