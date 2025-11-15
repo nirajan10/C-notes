@@ -43,6 +43,7 @@ nav:
       - Loop Control Statements: loop_control_statements.md
   - Arrays and Strings: arrays_and_strings.md
   - Functions: functions_in_C.md
+  - Pointer and Dynamic memory allocation: pointers_and_dynamic_memory_allocation.md
   - Assignments:
       - Assignment guide: assignment-guide.md
       - Assignment 1: assignment1.md
