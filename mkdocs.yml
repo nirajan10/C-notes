@@ -46,6 +46,7 @@ nav:
   - Pointer and Dynamic memory allocation: pointers_and_dynamic_memory_allocation.md
   - User-Defined Data Types: user_defined_data_types.md
   - Modular Programming: modular_programming.md
+  - File Handling: file_handling.md
   - Assignments:
       - Assignment guide: assignment-guide.md
       - Assignment 1: assignment1.md
