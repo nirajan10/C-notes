@@ -131,11 +131,11 @@ Binary files store data in the same format as it is represented in the computer'
 ### **Key Functions**
 1.  **`fwrite(ptr, size, count, stream)`**: Writes a block of memory to a file.
 2.  **`fread(ptr, size, count, stream)`**: Reads a block of memory from a file.
-
-*   **ptr**: Address of the data to be read/written.
-*   **size**: Size of one element (use `sizeof()`).
-*   **count**: Number of elements.
-*   **stream**: The file pointer.
+   
+    *   **ptr**: Address of the data to be read/written.
+    *   **size**: Size of one element (use `sizeof()`).
+    *   **count**: Number of elements.
+    *   **stream**: The file pointer.
 
 ### **Example: Writing and Reading a Structure**
 This is the most common use case for binary files.
