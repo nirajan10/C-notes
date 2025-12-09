@@ -13,8 +13,11 @@ When learning C, almost every student starts by writing all their code in a sing
 
 ### The Problem with Monolithic Code
 While this approach is excellent for small scripts or algorithm practice, it fails in production environments:
+
 *   **Readability:** A file with 5,000 lines of code is nearly impossible to navigate.
+  
 *   **Collaboration:** If two developers edit `main.c` simultaneously, merging their changes becomes a nightmare.
+
 *   **Compilation Time:** If you change one line of code, the compiler must re-compile the *entire* program.
 
 ---
@@ -25,12 +28,16 @@ To solve the problems of monolithic code, C programmers use **Modular Programmin
 
 ### The Header File (`.h`) - The Interface
 Think of the Header file as a **Menu** in a restaurant. It lists the available dishes (functions) but doesn't show you the recipe or the chef cooking them.
+
 *   **Contains:** Function declarations (prototypes), `struct` definitions, `typedefs`, and macros.
+
 *   **Does NOT Contain:** The actual code logic inside functions.
 
 ### The Source File (`.c`) - The Implementation
 Think of the Source file as the **Kitchen**. This is where the work actually happens.
+
 *   **Contains:** The function definitions (the actual code inside `{ }`).
+
 *   **Rule:** A source file must always `#include` its corresponding header file to ensure the definitions match the declarations.
 
 ### Example: Creating a Math Module
@@ -99,8 +106,11 @@ Macros do not understand math or data types; they only understand text. If you a
 
 int result = BAD_SQUARE(2 + 3);
 ```
+
 *   **What you expect:** $(2+3)^2 = 5^2 = 25$
+
 *   **What the preprocessor generates:** `2 + 3 * 2 + 3`
+
 *   **Result:** According to order of operations (PEMDAS), multiplication happens first. $2 + (3 \times 2) + 3 = 2 + 6 + 3 = 11$. **This is wrong.**
 
 *Correction:* Always wrap arguments in parentheses: `#define SQUARE(x) ((x)*(x))`
@@ -146,6 +156,7 @@ Unlike high-level languages (like Python) that use a central package manager (pi
 
 ### The Compilation Process with Libraries
 When using a library, you must provide three pieces of information to the compiler command:
+
 1.  **`-I` (Include Path):** "Where should I look for the `.h` files?"
 2.  **`-L` (Library Path):** "Where should I look for the `.a` or `.lib` files?"
 3.  **`-l` (Link Flag):** "What is the specific name of the library file?"
@@ -160,6 +171,7 @@ Since C does not have a universal "app store" for code, installation varies by O
 
 ### A. Windows (Manual Installation)
 Windows does not have a standard built-in package manager for C.
+
 1.  **Download:** Go to the library's website (e.g., Raylib, SDL2) and download the **Developer (MinGW/GCC)** version.
 2.  **Extract:** You will get a folder containing an `include` folder and a `lib` folder.
 3.  **Place:** Copy these folders into your project directory.
@@ -168,13 +180,18 @@ Windows does not have a standard built-in package manager for C.
 
 ### B. Linux (System Package Manager)
 Linux is easier because libraries are installed globally via the terminal.
+
 *   **Command:** `sudo apt install libraylib-dev`
+
 *   **Location:** The system places headers in `/usr/include` and binaries in `/usr/lib`.
+
 *   **Usage:** You usually don't need `-I` or `-L` flags because the compiler checks these system folders automatically. You only need `-lraylib`.
 
 ### C. macOS (Homebrew)
 Mac users typically use Homebrew.
+
 *   **Command:** `brew install raylib`
+
 *   **Location:** Usually `/opt/homebrew/include` and `/opt/homebrew/lib`.
 
 ---
@@ -234,10 +251,17 @@ gcc main.c -o game.exe -I./include -L./lib -lraylib -lm -lgdi32 -lwinmm
 ```
 
 **Breakdown of the Command:**
+
 *   `gcc main.c`: Run the compiler on our source file.
+
 *   `-o game.exe`: Name the output file "game.exe".
+
 *   `-I./include`: Look inside the local `include` folder for `raylib.h`.
+
 *   `-L./lib`: Look inside the local `lib` folder for the binary file.
+
 *   `-lraylib`: Link the specific library file (`libraylib.a`).
+
 *   `-lm`: Link the Standard Math Library (required by graphics libraries).
+
 *   `-lgdi32 -lwinmm`: (Windows Only) Link standard Windows interface libraries required to open windows.

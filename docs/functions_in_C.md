@@ -123,6 +123,7 @@ If a function takes no parameters, you can use `void` to make it explicit:
 ### Parameters vs. Arguments
 
 While often used interchangeably, there is a formal distinction:
+
 *   **Parameters** are the variables listed inside the parentheses in the function's **definition**. They act as local variables within the function.
 *   **Arguments** are the actual values or variables passed to the function when it is **called**.
 
@@ -323,6 +324,7 @@ float calculateArea(float radius) {
 ## Recursive Functions
 
 Recursion is an elegant programming concept where a function calls itself to solve a problem. A recursive function must have:
+
 1.  A **base case**: A condition that stops the recursion and prevents an infinite loop.
 2.  A **recursive step**: A part of the function that calls itself, typically with a modified argument that moves it closer to the base case.
 
