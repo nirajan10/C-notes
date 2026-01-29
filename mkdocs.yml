@@ -35,7 +35,7 @@ nav:
       - Input: inputs.md
       - Output: output.md
       - Escape sequences: escape_sequences.md
-  # - Operator and expression: operators_and_expressions.md
+   - Operator and expression: operators_and_expressions.md
   # - Control Structure:
   #     - Introduction: conditionals.md
   #     - Conditional Statements: conditional_statements.md
