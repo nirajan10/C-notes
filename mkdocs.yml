@@ -35,7 +35,7 @@ nav:
       - Input: inputs.md
       - Output: output.md
       - Escape sequences: escape_sequences.md
-   - Operator and expression: operators_and_expressions.md
+  - Operator and expression: operators_and_expressions.md
   # - Control Structure:
   #     - Introduction: conditionals.md
   #     - Conditional Statements: conditional_statements.md
@@ -51,9 +51,9 @@ nav:
   #     - Debugging: debugging.md
   #     - Testing: testing.md
   #     - Best practices: best_practices.md
-  # - Assignments:
-  #     - Assignment guide: assignment-guide.md
-  #     - Assignment 1: assignment1.md
+  - Assignments:
+      - Assignment guide: assignment-guide.md
+      - Assignment 1: assignment1.md
   #     - Assignment 2: assignment2.md
   #     - Assignment 3: assignment3.md
 
