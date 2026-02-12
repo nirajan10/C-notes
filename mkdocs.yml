@@ -36,11 +36,11 @@ nav:
       - Output: output.md
       - Escape sequences: escape_sequences.md
   - Operator and expression: operators_and_expressions.md
-  # - Control Structure:
-  #     - Introduction: conditionals.md
-  #     - Conditional Statements: conditional_statements.md
-  #     - Loops: loops.md
-  #     - Loop Control Statements: loop_control_statements.md
+  - Control Structure:
+      - Introduction: conditionals.md
+      - Conditional Statements: conditional_statements.md
+      - Loops: loops.md
+      - Loop Control Statements: loop_control_statements.md
   # - Arrays and Strings: arrays_and_strings.md
   # - Functions: functions_in_C.md
   # - Pointer and Dynamic memory allocation: pointers_and_dynamic_memory_allocation.md
