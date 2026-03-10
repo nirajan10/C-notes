@@ -42,7 +42,7 @@ nav:
       - Loops: loops.md
       - Loop Control Statements: loop_control_statements.md
   - Arrays and Strings: arrays_and_strings.md
-  # - Functions: functions_in_C.md
+  - Functions: functions_in_C.md
   # - Pointer and Dynamic memory allocation: pointers_and_dynamic_memory_allocation.md
   # - User-Defined Data Types: user_defined_data_types.md
   # - Modular Programming: modular_programming.md
