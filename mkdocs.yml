@@ -43,17 +43,17 @@ nav:
       - Loop Control Statements: loop_control_statements.md
   - Arrays and Strings: arrays_and_strings.md
   - Functions: functions_in_C.md
-  # - Pointer and Dynamic memory allocation: pointers_and_dynamic_memory_allocation.md
-  # - User-Defined Data Types: user_defined_data_types.md
+  - Pointer and Dynamic memory allocation: pointers_and_dynamic_memory_allocation.md
+  - User-Defined Data Types: user_defined_data_types.md
   # - Modular Programming: modular_programming.md
-  # - File Handling: file_handling.md
+  - File Handling: file_handling.md
   # - Best Practices, Debugging, and Testing:
   #     - Debugging: debugging.md
   #     - Testing: testing.md
   #     - Best practices: best_practices.md
   - Assignments:
       - Assignment guide: assignment-guide.md
-      - Assignment 1: assignment1.md
+      # - Assignment 1: assignment1.md
   #     - Assignment 2: assignment2.md
   #     - Assignment 3: assignment3.md
 
