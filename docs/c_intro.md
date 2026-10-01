@@ -24,7 +24,7 @@ int main() {
 }
 ```
 
-### What does this program do?
+### What Does This Program Do?
 
 - `#include <stdio.h>`: This line tells the program to use a library (like a toolbox) that has tools for printing text.
 - `int main()`: This is the starting point of the program, like the first step in a recipe.

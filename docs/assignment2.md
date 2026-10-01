@@ -1,4 +1,4 @@
-# Assignment 2: Conditional and loops
+# Assignment 2: Conditional and Loops
 
 ## Instructions
 

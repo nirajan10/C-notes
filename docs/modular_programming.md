@@ -80,7 +80,7 @@ int main() {
 
 Before the C compiler (like GCC) translates your code into machine language, a tool called the **Preprocessor** runs first. It scans source files for lines starting with `#`.
 
-### What are Macros?
+### What Are Macros?
 Macros are defined using `#define`. They are essentially **text-replacement tools**. The preprocessor finds the macro name in your code and physically replaces it with the defined value *before* compilation begins.
 
 ### Types of Macros
@@ -169,7 +169,7 @@ When using a library, you must provide three pieces of information to the compil
 
 Since C does not have a universal "app store" for code, installation varies by Operating System.
 
-### A. Windows (Manual Installation)
+### a. Windows (Manual Installation)
 Windows does not have a standard built-in package manager for C.
 
 1.  **Download:** Go to the library's website (e.g., Raylib, SDL2) and download the **Developer (MinGW/GCC)** version.
@@ -178,7 +178,7 @@ Windows does not have a standard built-in package manager for C.
     *   `MyProject/include/`
     *   `MyProject/lib/`
 
-### B. Linux (System Package Manager)
+### b. Linux (System Package Manager)
 Linux is easier because libraries are installed globally via the terminal.
 
 *   **Command:** `sudo apt install libraylib-dev`
@@ -187,7 +187,7 @@ Linux is easier because libraries are installed globally via the terminal.
 
 *   **Usage:** You usually don't need `-I` or `-L` flags because the compiler checks these system folders automatically. You only need `-lraylib`.
 
-### C. macOS (Homebrew)
+### c. macOS (Homebrew)
 Mac users typically use Homebrew.
 
 *   **Command:** `brew install raylib`

@@ -15,7 +15,7 @@
 
 ---
 
-## Questions (Do not use conditionals or looping)
+## Questions (Do Not Use Conditionals or Looping)
 
 **Q1.** What is the purpose of the main() function in a C program? Explain its significance.
 

@@ -151,7 +151,7 @@ Whether you start on GitHub or locally, you end up with:
 - `git pull`: Fetches and merges updates from GitHub to your local repository.
 - `git status`: Shows the current state of your repository (e.g., changed files).
 
-### Basic workflow
+### Basic Workflow
 
 ![Basic workflow](https://github.com/nirajan10/C-notes/blob/main/images/git_workflow.png?raw=true)
 [Reference for the image](https://medium.com/@humera.rk/top-25-basic-git-commands-to-know-as-a-software-tester-sdet-46d82335fba3)

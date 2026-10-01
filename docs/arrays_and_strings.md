@@ -11,7 +11,7 @@ Arrays are fundamental data structures in C that enable the storage of multiple 
 ### Definition and Purpose of Arrays
 An array is a fixed-size collection of elements, all of the same data type, stored in consecutive memory locations. The primary purpose is to group related data under a single name, simplifying access and manipulation. For instance, instead of declaring separate variables for each score in a game, an array can hold all scores together.
 
-### Key characteristics:
+### Key Characteristics:
 
 - **Homogeneous Elements:** All items must be of the same type (e.g., all int, all float, or all char).
 

@@ -67,23 +67,43 @@ theme:
     highlighting: true
     light: default
     dark: material
+  font:
+    text: Source Sans 3
+    code: JetBrains Mono
   palette:
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
 
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences  
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
 extra:
   generator: false
       

@@ -3,20 +3,20 @@
 ## Common Programming Errors
 Errors in C generally fall into three categories. Understanding which category an error belongs to is the first step in fixing it.
 
-### A. Compile-Time Errors
+### a. Compile-Time Errors
 These occur during the build process. The compiler fails to translate source code into machine code.
 
 *   **Syntax Errors:** Violation of language grammar (e.g., missing semicolons `;`, mismatched braces `{}`).
 *   **Type Mismatches:** Assigning incompatible data types (e.g., `char *str = 10;`).
 *   **Linker Errors:** Occur when the compiler cannot find the definition of a function or variable (e.g., "Undefined reference to `main`").
 
-### B. Runtime Errors
+### b. Runtime Errors
 These occur while the program is executing.
 
 *   **Segmentation Fault (Segfault):** The program attempts to access memory it is not allowed to touch. Common causes include dereferencing `NULL` pointers or accessing freed memory.
 *   **Division by Zero:** Mathematical illegality that crashes the program.
 
-### C. Logic Errors
+### c. Logic Errors
 The program compiles and runs without crashing, but produces incorrect results.
 
 *   **Off-by-One:** Looping `0` to `<= 5` when you meant `< 5`.
@@ -27,7 +27,7 @@ The program compiles and runs without crashing, but produces incorrect results.
 ## General Debugging Techniques
 Debugging is the methodical process of finding and resolving defects. Before using advanced tools, programmers often use these fundamental strategies.
 
-### A. "Printf" Debugging / Tracing
+### a. "Printf" Debugging / Tracing
 This involves inserting print statements to track the flow of execution and the state of variables.
 
 *   **How it works:** You print "checkpoints" to see how far the code gets before crashing, or print variable values to see where calculations go wrong.
@@ -38,12 +38,12 @@ This involves inserting print statements to track the flow of execution and the 
     fprintf(stderr, "Entering calculation loop. Index: %d\n", i);
     ```
 
-### B. Rubber Ducking
+### b. Rubber Ducking
 This is a psychological technique where you explain your code, line-by-line, to an inanimate object (like a rubber duck) or a listener.
 
 *   **Why it works:** Our brains process information differently when we read silently versus when we speak. Articulating the logic aloud often highlights assumptions ("Oh, I assumed `x` was never negative, but here it can be").
 
-### C. Divide and Conquer (Binary Search Debugging)
+### c. Divide and Conquer (Binary Search Debugging)
 If you have a large block of code crashing, isolate the issue.
 
 1.  Comment out the second half of the code.
