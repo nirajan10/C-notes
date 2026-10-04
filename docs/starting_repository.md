@@ -17,7 +17,7 @@ This approach is great if you want to create the repository online first and the
       - Choose whether it’s **Public** (anyone can see it) or **Private** (only you and collaborators can see it).
       - Optionally, add a description, a README file, or a `.gitignore` file (to ignore certain files like logs or temporary files).
       - Click **Create repository**.
-3. **Copy the Repository URL**: After creating the repository, you’ll see a URL like `https://github.com/your-username/my-project.git` or `git@github.com:your-username/my-project.git` for ssh. Copy it for the next step.
+3. **Copy the Repository URL**: After creating the repository, you’ll see a URL like `https://github.com/your-username/my-project.git` or `git@github.com:your-username/my-project.git` for ssh under Code section. Copy it for the next step.
 
 ### Step 2: Clone the Repository to Your Computer
 

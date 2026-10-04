@@ -63,6 +63,7 @@ theme:
     - header.autohide
     - announce.dismiss
     - navigation.footer
+    - content.code.copy
   code:
     highlighting: true
     light: default
